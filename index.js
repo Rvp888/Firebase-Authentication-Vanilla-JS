@@ -20,6 +20,7 @@ signUpBtn.addEventListener("click", () => {
     .createUserWithEmailAndPassword(email.value, password.value)
     .then((res) => {
       console.log(res.user);
+      alert("New user created successfully !");
     })
     .catch((err) => {
       alert(err.message);
@@ -31,6 +32,7 @@ signInBtn.addEventListener("click", () => {
     .signInWithEmailAndPassword(email.value, password.value)
     .then((res) => {
       console.log(res.user);
+      alert("Log in successfull !");
     })
     .catch((err) => {
       alert(err.message);
