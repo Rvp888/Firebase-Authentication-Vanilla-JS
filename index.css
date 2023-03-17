@@ -13,15 +13,17 @@
     align-items: center;
     margin: 10% 40%;
     width: 400px;
-    height: 350px;
-    border: 1px solid;
+    height: 420px;
     padding: 20px;
     background: #292828;
     color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
 }
 
 .formCont h2 {
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .formCont input {
@@ -50,4 +52,5 @@
     background: white;
     color: #0849fa;
     border: 2px solid #0849fa;
+    margin-bottom: 10px;
 }
