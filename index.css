@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .formCont {
@@ -15,6 +16,8 @@
     height: 350px;
     border: 1px solid;
     padding: 20px;
+    background: #292828;
+    color: white;
 }
 
 .formCont h2 {
@@ -25,9 +28,9 @@
     width: 90%;
     height: 12%;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 5px;
     border: 1px solid rgb(183, 181, 181);
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .formCont button {
