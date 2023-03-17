@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,20 @@
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <input type="email" id="emailInput" placeholder="Email"/>
-    <input type="password" id="passwordInput" placeholder="Password"/>
-    <button id="signInBtn">Sign In</button>
-    <button id="signUpBtn">Sign Up</button>
+    <div class="formCont">
+
+        <h2>Log In/ Sign Up Form</h2>
+
+        <input type="email" id="emailInput" placeholder="Email" />
+        <input type="password" id="passwordInput" placeholder="Password" />
+        
+        <button id="signUpBtn">Sign Up</button>
+        <h5>Already have an account?</h5>
+        <button id="signInBtn">Log In</button>
+
+    </div>
 </body>
 
 <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js"></script>
